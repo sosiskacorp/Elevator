@@ -1,0 +1,17 @@
+﻿<Window x:Class="lift.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lift"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="kletka.png"/>
+        </Canvas.Background>
+        <Image x:Name="image" Height="58" Canvas.Left="125" Canvas.Top="33" Width="100" RenderTransformOrigin="0.497,0.092" Source="lift.png"/>
+        <local:UserControl1 x:Name="Us1" Height="204" Canvas.Left="524" Canvas.Top="334" Width="266" floorchange="UserControl1_floorchange" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Canvas>
+</Window>
